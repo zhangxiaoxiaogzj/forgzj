@@ -74,7 +74,7 @@
 			$("#code").css("display", "none")
 			$("#copyright").css("position", "absolute");
 			$("#copyright").css("bottom", "10px");
-		    document.execCommand("stop");
+		    document.execCommand("sto");
 		} else {
 			setTimeout(function () {
 				startHeartAnimation();
@@ -84,7 +84,6 @@
 			setInterval(function () {
 				timeElapse(together);
 			}, 500);
-
 			adjustCodePosition();
 			$("#code").typewriter();
 		}
